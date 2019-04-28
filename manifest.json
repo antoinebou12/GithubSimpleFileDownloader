@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "author": "Antoine Boucher <antoine.bou13@gmail.com>",
-  "name": "Github/Gitlab File Downloader",
+  "name": "Github/Gitlab/Bitbucket File Downloader",
   "short_name": "Git File Downloader",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "default_locale": "en",
-  "description": "Chrome extension for Github/Gitlab to download single file (with size indicator) in a repo",
+  "description": "Chrome extension for Github/Gitlab/Bitbucket to download single file (with size indicator) in a repo",
   "icons": {
     "16": "src/assets/icons/github_icon16.png",
     "32": "src/assets/icons/github_icon32.png",
@@ -24,7 +24,8 @@
     {
       "matches": [
         "https://github.com/*",
-        "https://gitlab.com/*"
+        "https://gitlab.com/*",
+        "https://bitbucket.org/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -44,6 +45,14 @@
       ],
       "js": [
         "src/inject/inject_gitlab.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://bitbucket.org/*"
+      ],
+      "js": [
+        "src/inject/inject_bitbucket.js"
       ]
     }
   ]
