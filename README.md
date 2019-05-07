@@ -2,8 +2,10 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/beaapccjfanmdliofdcpbjmaklgojgbb.svg?style=plastic)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/beaapccjfanmdliofdcpbjmaklgojgbb.svg)
 
 [![Install from chrome web store](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/githubgitlab-file-downloa/beaapccjfanmdliofdcpbjmaklgojgbb)
+
 
 
 This extension add a download button and the size of the file to each file to a github and gitlab repo. So you can download individual file in a repo.
