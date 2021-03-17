@@ -1,4 +1,4 @@
-# 👨🏽‍💻 Chrome extension for Github/Gitlab/Bitbucket to download single file
+# 👨🏽‍💻 Chrome extension for Github/Gitlab/Bitbucket to download single file (NOT WORKING)
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/beaapccjfanmdliofdcpbjmaklgojgbb.svg?style=plastic)
